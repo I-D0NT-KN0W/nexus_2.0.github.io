@@ -209,13 +209,13 @@ html,body {
     background-image: url(Vector\ 2.svg);
     background-size: cover;
     margin-left: 2vw;
-    margin-top: 1vh;
+    margin-top: 10vh;
     background-repeat: no-repeat;
 }
 
 #page2>h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 20vh;
+    margin-top: 10vh;
     text-align: center;
     font-size: 5.5vw;
     letter-spacing: 0.00vw;
