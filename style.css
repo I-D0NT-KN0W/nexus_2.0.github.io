@@ -3,6 +3,16 @@
     src: url(./GuthenBloots.otf);
 }
 
+@font-face {
+    font-family: Hel;
+    src: url(./Helvetica.otf);
+}
+
+@font-face {
+    font-family: Imp;
+    src: url(./impact.otf);
+}
+
 img {
     -webkit-user-drag: none;
     pointer-events: none;
@@ -69,7 +79,7 @@ html,body {
 }
 
 #nav button{
-    font-family: Helvetica, sans-serif;
+    font-family: Hel;
     font-size: 1.2vw;
     margin: 0 0.5vw;
     padding: 1.5vh 3vw;
@@ -94,7 +104,7 @@ html,body {
 }
 
 #nav h4 {
-    font-family: Helvetica, sans-serif;
+    font-family: Hel;
     font-size: 1.4vw;
     margin: 1.2vw;
     font-weight: 500;
@@ -116,7 +126,7 @@ html,body {
 }
 
 #hleft h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Imp;
     font-size: 6.5vw;
     line-height: 6vw;
     letter-spacing: 0.1vw;
@@ -136,14 +146,14 @@ html,body {
 }
 
 #hleft p {
-    font-family: Helvetica, sans-serif;
+    font-family: Hel;
     margin-top: 8vh;
     font-size: 1.6vw;
     font-weight: 500;
 }
 
 #hleft button{
-    font-family: Helvetica, sans-serif;
+    font-family: Hel;
     font-size: 1.2vw;
     margin: 4vh 0vw;
     padding: 1.5vh 2vw;
@@ -218,7 +228,7 @@ html,body {
 }
 
 #page2>h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Imp;
     margin-top: 10vh;
     text-align: center;
     font-size: 5.5vw;
@@ -251,13 +261,13 @@ html,body {
 }
 
 #lbtm>p {
-    font-family: Helvetica, sans-serif;
+    font-family: Hel;
     margin-top: 2vh;
     font-size: 1.6vw;
 }
 
 #lbtm>button {
-    font-family: Helvetica, sans-serif;
+    font-family: Hel;
     font-size: 1.2vw;
     font-weight: 600;
     display: flex;
@@ -326,7 +336,7 @@ html,body {
 }
 
 #page3 h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Imp;
     margin-top: 15vh;
     text-align: center;
     font-size: 5.5vw;
@@ -389,7 +399,7 @@ html,body {
 .content {
   padding: 0 1.5vw 3vh 1.5vw ;
   line-height: 1.7vw;
-  font-family: Helvetica, sans-serif;
+  font-family: Hel;
   font-size: 1.6vw;
 }
 
@@ -449,7 +459,7 @@ html,body {
 }
 
 .part>p {
-    font-family: Helvetica, sans-serif;
+    font-family: Hel;
     margin-top: 2vh;
     font-size: 1.6vw;
 }
@@ -462,7 +472,7 @@ html,body {
 
 #page3 button {
     width: 25vw;
-    font-family: Helvetica, sans-serif;
+    font-family: Hel;
     font-size: 1.2vw;
     font-weight: 600;
     display: flex;
@@ -507,7 +517,7 @@ html,body {
 }
 
 #page4 h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Imp;
     margin-top: 15vh;
     text-align: center;
     font-size: 5.5vw;
@@ -552,14 +562,14 @@ html,body {
 }
 
 .cover>p {
-    font-family: Helvetica, sans-serif;
+    font-family: Hel;
     margin-top: 2vh;
     font-size: 1.6vw;
 }
 
 #page4 button {
     width: 25vw;
-    font-family: Helvetica, sans-serif;
+    font-family: Hel;
     font-size: 1.2vw;
     font-weight: 600;
     display: flex;
@@ -628,7 +638,7 @@ html,body {
 }
 
 #page5 h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Imp;
     padding-top: 15vh;
     color: white;
     text-align: center;
@@ -657,7 +667,7 @@ html,body {
 }
 
 #foot>h2 {
-    font-family: Helvetica, sans-serif;
+    font-family: Hel;
     font-size: 1.5vw;
     color: #fff;
     font-weight: 500;
@@ -687,7 +697,7 @@ html,body {
     flex: 1;
     display: flex;
     align-items: end;
-    font-family: Helvetica, sans-serif;
+    font-family: Hel;
     font-size: 0.8vw;
     color: #fff;
     height: max-content;
