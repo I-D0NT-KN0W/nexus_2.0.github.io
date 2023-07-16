@@ -1,5 +1,5 @@
 const wrapper = document.querySelector('.wrapper')
-const iwrapper = document.querySelector("item-wrapper")
+const iwrp = document.querySelector('.item-wrapper')
 
 let activeIndex = null;
 
