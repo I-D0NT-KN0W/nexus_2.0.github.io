@@ -64,6 +64,10 @@ html,body {
     justify-content: center;
 }
 
+#nav>i {
+    display: none;
+}
+
 #nav button{
     font-family: Helvetica, sans-serif;
     font-size: 1.2vw;
@@ -414,7 +418,7 @@ html,body {
     width: 25vw;
 }
 
-#page3 h1:nth-child(1){
+#page3 h1:nth-child(2){
     margin-top: 8vh;
 }
 
@@ -607,7 +611,6 @@ html,body {
 }
 
 #page5 {
-    margin-top: 5vh;
     height: max-content;
     width: 100vw;
     background-image: url(Vector\ 5.svg);
@@ -691,3 +694,333 @@ html,body {
     border-top: 0.1vw solid #fff;
 }
 
+/* mobile-dev */
+
+@media (max-width: 767px) {
+
+    #page5 {
+        margin-top: 5vh;
+    }
+
+    #page5 h1 {
+        padding-top: 8vh;
+        font-size: 5vh;
+    }
+
+    #page5 h1>span {
+        font-size: 7vh;
+    }
+
+    #p2 {
+        display: inline;
+        align-items: start;
+    }
+
+    #foot {
+        margin-top: 5.3vh;
+    }
+
+    #foot>h2 {
+        margin-left: 8vh;
+        margin-top: 5vw;
+        font-size: 1.5vh;
+    }
+
+    #foot>h2::after{
+        content: "";
+        display: none;
+    } 
+
+    #call {
+        margin: 20vw 8vh 5vw;
+        font-size: 1.3vh;
+    }
+
+    #logo2 {
+        position: absolute;
+        bottom: 21vh;
+        left: 7vh;
+    }
+
+    #logo2>img {
+        width: 6vh;
+    }
+
+    #page1 {
+        height: auto;
+    }
+
+    #nav {
+        height: 50px;
+        position: relative;
+        justify-content: center;
+    }
+
+    #logo img {
+        width: 50px;
+        top: 50%;
+    }
+
+    #side {
+        display: none;
+    }
+
+    #nav>i {
+        display: block;
+        position: absolute;
+        right: 5vw;
+        top: 50%;
+    }
+
+    #hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hleft h1 {
+        font-size: 5vh;
+        line-height: 5vh;
+    }
+
+    #hleft {
+        display: inline-block;
+        text-align: center;
+    }
+
+    #hleft h2 {
+        font-size: 3vh;
+        margin-top: 2vh;
+    }
+
+    #hleft p {
+        margin-top: 5vh;
+        font-size: 1.5vh;
+    }
+
+    #hleft button {
+        font-size: 1.5vh;
+        border-radius: 2.5vh;
+        padding: 1vh 2vh;
+    }
+
+    #hright {
+        height: fit-content;
+    }
+
+    #vec1 {
+        width: 100vw;
+    }
+
+    #grid1 {
+        margin-top: 1.5vh;
+    }
+
+    #rec1 {
+        width: 26vw;
+        margin-bottom: 1vw;
+        margin-right: 2vh;
+        margin-left: 20vw;
+    }
+    
+    #rec2 {
+        width: 32vw;
+        margin-bottom: 1vw;
+    }
+    
+    #rec3 {
+        width: 37vw;
+        margin-left: 15vw;
+        margin-right: 1vw;
+        margin-bottom: 1vh;
+    }
+    
+    #rec4 {
+        width: 30vw;
+    }
+
+    #page2{
+        margin-top: 5vh;
+        background-size: 100vh;
+        height: max-content;
+    }
+
+    #page2>h1 {
+        margin-top: 7vh;
+        font-size: 4vh;
+        word-wrap: break-word;
+    }
+
+    #pg2-btm {
+        margin: 3vh;
+        display: flex;
+    }
+
+    #lbtm {
+        flex: 15;
+    }
+
+    #lbtm>h2 {
+        font-size: 3.2vh;
+    }
+
+    #lbtm>p {
+        margin-top: 1vh;
+        font-size: 1.4vh;
+    }
+
+    #lbtm>button {
+        width: 50vw;
+        margin-top: 3vh;
+        padding: 1vh;
+        font-size: 1.2vh;
+    }
+
+    #rbtm :nth-child(1){
+        position: absolute;
+        width: 25vw;
+        bottom: 20%;
+        right: 0.1vw;
+    }
+
+    #dod1 {
+        top: 27%;
+        width: 10vw;
+        right: 3.5vw;
+    }
+
+    #dod2 {
+        width: 20vw;
+    }
+
+    #page3 {
+        margin-top: 5vh;
+    }
+
+    #page3 h1 {
+        margin-top: 5vh;
+        font-size: 5.3vh;
+        word-wrap: break-word;
+    }
+
+    #pg3-p1 {
+        margin: 4vh 5vw; 
+    }
+
+    .item-wrapper{
+        margin-bottom: 2vh;
+        border-radius: 2vh;
+    }
+
+    .item-title {
+        padding: 2vh ;
+    }
+
+    .item-title>img {
+        width: 5vw;
+        transform: translateY(0vh);
+    }
+
+    .content {
+        font-style: 10vw;
+        padding: 0 1.5vw 2vh 1.5vw;
+    }
+
+    #pg3r {
+        flex: 1.8;
+    }
+
+    #dod3{
+        top: 2vh;
+    }
+
+    #dod4 {
+        bottom: 1vh;
+    }
+
+    #pg3-p2 h1 {
+        margin-top: 1vh;
+        font-size: 4vh;
+    }
+
+    #grid2 {
+        margin-top: 3vh;
+        grid-template-rows: 7vh 7vh;
+        row-gap: 2vh;
+    }
+
+    .part>p {
+        margin-top: 1vh;
+        font-size: 0.8vh;
+    }
+
+    #page3 button {
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+        padding: 1.4vh;
+        font-size: 1vh;
+    }    
+
+    #page4 {
+        margin-top: 3vh;
+    }
+
+    #page4 h1 {
+        font-size: 3vh;
+        margin-top:8vh;
+    }
+
+    #p4-p2 {
+        padding: 3vh 5vw;
+    }
+
+    #grid3 {
+        flex: 3;
+        margin-top: 0;
+        row-gap: 3vh;
+        grid-template-columns: 25vw 25vw;
+        grid-template-rows: 7vh 7vh;
+    }
+
+    .cover>h2{ 
+        font-size: 1.8vh;
+    }
+
+    .cover>p {
+        margin-top: 1vh;
+        font-size: 1vh;
+    }
+
+    #page4 button {
+        margin-top: 1vh;
+        margin-bottom: 2vh;
+        padding: 1vh;
+        font-size: 1vh;
+        width: 40vw;
+    }
+    
+    #dodo {
+        position: absolute;
+        width: 35vw;
+        top: 35%;
+        right: 0;
+        flex: 1;
+    }
+
+    #dod5 {
+        right: 12vw;
+        width: 5vh;
+        top: 4vh;
+    }
+
+    #dod6 { 
+        bottom: 4vh;
+        width: 10vh;
+        right: 8vw;
+    }
+
+    #dod7 {
+        bottom: 4vh;
+        left: 10vw;
+        width: 4vh;
+    }
+}
